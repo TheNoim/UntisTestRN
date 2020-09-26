@@ -1,0 +1,12 @@
+{
+  "name": "UntisTestRN",
+  "displayName": "UntisTestRN",
+  "expo": {
+    "name": "UntisTestRN",
+    "slug": "UntisTestRN",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
