@@ -8,6 +8,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@otplib/plugin-crypto-js": "^12.0.1",
+    "buffer": "^5.6.0",
     "expo": "~39.0.2",
     "expo-splash-screen": "~0.6.0",
     "expo-status-bar": "~1.0.2",
@@ -19,7 +21,10 @@
     "react-native-reanimated": "~1.13.0",
     "react-native-screens": "~2.10.1",
     "react-native-unimodules": "~0.11.0",
-    "react-native-web": "~0.13.12"
+    "react-native-url-polyfill": "^1.2.0",
+    "react-native-web": "~0.13.12",
+    "webuntis": "^1.13.2",
+    "whatwg-url": "^8.3.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
@@ -30,5 +35,8 @@
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "private": true,
+  "react-native": {
+    "url": false
+  }
 }
